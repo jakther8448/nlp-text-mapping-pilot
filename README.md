@@ -6,10 +6,7 @@ This repository contains a fast-tracked prototype designed to map unstructured, 
 
 The goal of this pilot is to demonstrate a workflow that reduces manual coding time for R&D screening decisions while maintaining high semantic accuracy.
 
----
-
 ## Theoretical Framework & Methodology
-
 To map free-text consumer responses to a fixed set of descriptors when exact terms are not present, this pipeline avoids rigid keyword matching and instead utilizes a **semantic embedding approach**.
 
 ### 1. Latent Semantic Space & Text Embeddings
@@ -24,7 +21,3 @@ To map free-text consumer responses to a fixed set of descriptors when exact ter
 To ensure this AI workflow is reliable for industry stakeholders, the project incorporates:
 * **Phrase Sensitivity Testing:** Evaluating if the model consistently maps different surface-level phrases (synonyms, slang) to the correct underlying lexicon term.
 * **Confidence Thresholds:** Flagging ambiguous or low-similarity mappings for human review to mitigate error modes.
-
-
-* **Day 6:** Designing a basic evaluation baseline script.
-* **Day 7:** Pipeline optimization and final documentation polish.
